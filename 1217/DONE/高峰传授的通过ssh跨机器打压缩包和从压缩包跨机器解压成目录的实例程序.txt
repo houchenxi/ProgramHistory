@@ -1,0 +1,5 @@
+tar zcf - status.rof_transfer | ssh work@m1-rp-rptest7.vm.baidu.com "cat - > /home/work/gaofeng/scp/aaa.tar.gz"
+
+
+
+cat beifen.tar.gz | ssh work@tjyx-testing-ps1001.vm "cd /home/work/gaofeng/beifen_mirror; cat - | tar zxf - "
