@@ -1,0 +1,4 @@
+attach放到用户词库加载流程中
+selectsingle放到一般的学词handleuserinput->learnword流程中，以便学习二元
+reset放到切入手写模式的新增接口中SetHanvon调用，重置历史上屏的记录信息
+提取BisectDict的CRUD接口到单独的基类中
