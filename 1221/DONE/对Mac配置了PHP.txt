@@ -1,0 +1,10 @@
+Mac机的PHP也是基于fpm的。
+
+1 apache的配置文件在
+/etc/apache2/http.conf
+
+2 web文件目前指向以下目录
+/Library/WebServer/Document/
+通过 localhost/info.php可以访问添加的php文件
+
+这个工作把php配置好，今后也可以在Mac上随时随地的开发php的应用程序了。
