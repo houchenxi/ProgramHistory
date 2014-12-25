@@ -1,0 +1,2 @@
+﻿实际上需要把Windows版IMEdemo的源代码直接拿过来用，改掉其中对OS有依赖的函数。
+这样就可以在Mac上复现问题Debug，增加在VisualStudio开发以外的又一IDE供选择。
