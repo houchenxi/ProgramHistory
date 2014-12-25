@@ -1,3 +1,1 @@
-﻿整理Versions中的无用书签，只保留开发相关的有用书签。
-Files更名为Install，清理无用的SVN Working Copy，将无关于Install的保留项目归类到应该存放的地方。
-
+﻿约定在周四或者周五进行，需要进行一些准备工作。
