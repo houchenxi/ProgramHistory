@@ -1,3 +1,31 @@
 和教授杨斌约好开发联调的流程。
 
 给教授发信，备忘。
+
+邮件全文：
+
+平台开发手写联想时，在三种情况下，调用内核coreengine层的以下接口
+
+1.	切换输入法到手写模式（注意不是笔画输入）：
+
+做下面的调用
+coreengine.SetIsHandWriting(true)
+
+2.	切换输入法从手写模式（注意不是笔画输入）到非手写模式：
+
+做下面的调用
+coreengine.SetIsHandWriting(false)
+
+
+3.	手写模式下在候选条中上屏了一个候选（不区分是手写产生的候选还是联想中的候选）时：
+
+做下面的调用
+Coreengine.HandleUserInput( 0, NULL, buffer, true);
+
+其中buffer是wordbuffer
+
+可以随便定义一个，每次调用HandleUserInput的时候，这样设置
+buffer.Reset();
+buffer.Append(coreresultElement);
+
+其中上述Append函数的参数coreresultElement是上屏候选的coreresultElement
