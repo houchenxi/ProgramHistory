@@ -29,3 +29,8 @@ buffer.Reset();
 buffer.Append(coreresultElement);
 
 其中上述Append函数的参数coreresultElement是上屏候选的coreresultElement
+
+
+【手写联想】做了一些无用功，更改手写状态位标志位的public-》private-》public。
+
+【手写联想】回答了杨斌关于是否区分普通手写候选和联想候选上平的问题。
