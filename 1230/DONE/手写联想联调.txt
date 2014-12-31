@@ -34,3 +34,10 @@ buffer.Append(coreresultElement);
 【手写联想】做了一些无用功，更改手写状态位标志位的public-》private-》public。
 
 【手写联想】回答了杨斌关于是否区分普通手写候选和联想候选上平的问题。
+
+
+【手写联想】废除了原有的HandleUserInput调用，新提供了SelectHandWrCandidate接口取代原来的接口。
+			借此解决手写候选无法获取CoreResultElement并调用HandleUserInput的问题。
+
+
+
