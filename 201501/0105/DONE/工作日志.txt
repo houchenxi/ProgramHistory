@@ -18,3 +18,5 @@ ps：同时也试用了Changes，DiffMerge，TextWrangler等比较工具，但�
 
 5. 填写考勤解释。
 
+6. 发送周报
+
