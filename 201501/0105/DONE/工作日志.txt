@@ -14,3 +14,7 @@ ps：同时也试用了Changes，DiffMerge，TextWrangler等比较工具，但�
 3. 完善了SecureCrt的工作流
 解决了Mac版本的SecureCrt不能够保存密码的繁琐之处，只是在选项中取消了勾选UseKeychain的选项。
 
+4. 下载了CornerStone用来替换Versions，并且作为测试，提交了一个bugfix到core6.0上作为Merge的测试，体验一流。
+
+5. 填写考勤解释。
+
