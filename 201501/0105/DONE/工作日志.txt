@@ -1,0 +1,16 @@
+0. 建立无线AP，使得Versions能够正常使用
+公司的AP使得svn操作非常非常的缓慢，所以将固网的网络通过AP提供给PC和Mac。
+Mac和PC都采用无线网卡连接AP。Versions和乌龟都是正常能够使用。可能需要一根网线。也许不需要，无线网卡本身就很好。
+
+1. 完善了MacIMEDemo
+完善Mac下Demo的Xcode工程Git仓库配置，新开了core6.0分支，在Versions的SVN检出的工作版本上解决了6.0源码的错误。
+针对Versions检出所用的svn版本低，在配置中进行了调整，使之用1.7版本检出内核代码。
+在SourceTree中反复的进行版本切换，然后Xcode中编译Demo，使得编译总能通过。最终新加了一个在Demo工程根目录同级的allsource目录，在它的里面按照coreX.Y的格式保存windows的工程文件分支，使得MacIMEDemo的工程文件和源代码文件真正的分离。
+
+2. 完善了Versions的工作流
+下载AraxisMerge作为Versions的默认比较工具，替换了频繁崩溃的FileMerge，并且将编码问题调整到双击支持中文windows的状态。
+ps：同时也试用了Changes，DiffMerge，TextWrangler等比较工具，但是效果并不理想，予以删除处理。
+
+3. 完善了SecureCrt的工作流
+解决了Mac版本的SecureCrt不能够保存密码的繁琐之处，只是在选项中取消了勾选UseKeychain的选项。
+
