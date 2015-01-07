@@ -20,3 +20,6 @@ ps：同时也试用了Changes，DiffMerge，TextWrangler等比较工具，但�
 
 6. 发送周报
 
+7. 晚间继续写测试代码验证了MacDemo的有效性，不涉及词库加载，只是测试engine能够正常的Debug，结果是肯定的。前面几天的投入没有白费，今后的开发可以更多转移到Mac上进行了，现在的Cornerstone的SVN功能很晚上，所以可以很好的和VS通过公司的SVN进行协作。
+
+
